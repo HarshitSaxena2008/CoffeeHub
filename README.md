@@ -2,6 +2,7 @@
 
 Coffee Hub is a responsive coffee ordering website built using HTML, CSS, Bootstrap, and JavaScript. Users can explore different coffee varieties, search for their favorite coffee, and place orders through an interactive interface.
 
+---
 
 ## 🚀 Features
 
@@ -13,6 +14,7 @@ Coffee Hub is a responsive coffee ordering website built using HTML, CSS, Bootst
 * 🎨 Modern and clean UI
 * ⚡ Dynamic content rendering using JavaScript
 
+---
 
 ## 🛠️ Technologies Used
 
@@ -22,19 +24,20 @@ Coffee Hub is a responsive coffee ordering website built using HTML, CSS, Bootst
 * JavaScript (ES6)
 * Local Storage API
 
-
+---
 
 ## 📂 Project Structure
 
+```bash
 Coffee-Hub/
 │
 ├── index.html
 ├── menu.html
 ├── order.html
 ├── style.css
-├── coffee1.js
-├── coffee2.js
-├── coffee3.js
+├── cofee1.js
+├── cofee.js
+├── coffe.js
 ├── order.js
 ├── images/
 │   ├── coffee1.jpg
@@ -52,6 +55,8 @@ Coffee-Hub/
 5. Selected coffee details are stored in Local Storage.
 6. Order details are displayed on the Order Page.
 7. Confirm your order.
+
+---
 
 
 ## 🌐 Live Demo
@@ -76,5 +81,6 @@ https://coffeecanteen.netlify.app/
 
 **Harshit Saxena**
 
+---
 
 ⭐ If you like this project, don't forget to star the repository.
