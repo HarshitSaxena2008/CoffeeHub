@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+body{
+    background-color: rgb(34, 0, 0);
+}
+.container-fluid{
+    background-color: #3E2723;
+}
+.nav-txt{
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+.nav-link{
+    margin-left: 4rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.nav-link:hover{
+    color: #d4a373 !important;
+}
+
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    width: 0;
+    height: 2px;
+    background-color: #d4a373;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after{
+    width: 80%;
+}
+.active-nav::after{
+    width: 70%;
+}
+.nav-button{
+    background-color: rgb(255, 136, 0);
+}
+.carousel-item img{
+    height:25rem;
+}
+.second-section{
+    background-color: transparent;
+}
+.second-section h4{
+    color:rgb(255, 229, 144);
+}
+.carousel-btn{
+    background-color:  #7a5733;
+    border-radius: 20px;
+}
+.carousel-btn:hover{
+    background-color:  #553d25!important;
+    scale: 1.1;
+}
+.third-section{
+    background-color: bisque;
+}
+.third-section h5{
+    color: #3E2723;
+}
+.third-section .col-sm-2{
+    border: 2px solid #504240;
+    box-shadow: 0px 0px 1rem rgb(75, 28, 1);
+    background-color: rgb(255, 239, 220);
+}
+.third-section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 525;
+    font-size: 0.9rem;
+}
+.third-section:hover{
+    scale: 1.010;
+    box-shadow: 0px 0px 1rem rgba(75, 28, 1,);
+}
+.fourth-section{
+    background-color: bisque;
+}
+.fourth-section h4{
+    color: #3E2723;
+    margin-top: 0.5rem;
+}
+.fourth-section .order:hover{
+    box-shadow: 0px 0px 1rem rgba(75, 28, 1,0.9);
+    scale: 1.020;
+}
+.fivth-section .col-2 img:hover{
+    box-shadow: 0px 0px 1rem rgba(255, 255, 255,0.5);
+    scale: 1.020;
+}
+.footer li:hover{
+    color: #553d25;
+}
+.order-card{
+    min-width: 40vw !important;
+    max-width: 70vh !important;
+    color: #3E2723;
+    background-color: bisque;
+}
+.confirm:hover{
+    opacity: 0.7;
+}
