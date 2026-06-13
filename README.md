@@ -56,7 +56,7 @@ Coffee-Hub/
 
 ## 🌐 Live Demo
 
-https://your-live-link-here.com
+https://coffeecanteen.netlify.app/
 
 ---
 
