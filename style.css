@@ -112,3 +112,37 @@ body{
 .confirm:hover{
     opacity: 0.7;
 }
+@media ( max-width : 1100px ){
+    .fivth-section img{
+        width : 15vw;
+    }
+}
+@media ( max-width : 776px ){
+    .second-section img{
+        width : 70vw;
+    }
+    .third-section img{
+        width : 50vw;
+    }
+    .fourth-section img{
+        width: 40vw;
+    }
+    .fivth-section{
+        justify-content: center !important;
+    }
+    .fivth-section img{
+        width : 50vw;
+    }
+    .fourth-section{
+        justify-content: center !important;
+    }
+    .footer img{
+        width : 45px;
+    }
+    .footer{
+        justify-content: center !important;
+    }
+    .offer-img{
+        display: none !important;
+    }
+}
